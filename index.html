@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>FZ.ADS — Creo campañas que venden</title>
+<meta name="description" content="FZ.ADS - Especialista en Google Ads, Meta Ads e IA aplicada. Solicita tu auditoría gratuita."/>
+<link rel="icon" href="assets/favicon.png"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="navbar">
+  <div class="container">
+    <div class="brand"><div class="logo">FZ.ADS</div><div class="tag">Especialista en Google & Meta Ads</div></div>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#testimonios">Reseñas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+  </div>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="container hero-inner">
+    <h1 class="hero-title">Creo campañas que <span class="accent">venden</span> 🚀</h1>
+    <p class="hero-sub">Especialista en Google Ads, Meta Ads e Inteligencia Artificial aplicada al marketing.</p>
+    <div class="hero-actions">
+      <a href="#contacto" class="btn btn-primary">Solicitar presupuesto</a>
+      <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+    </div>
+  </div>
+</section>
+
+<section id="servicios" class="section section-accent">
+  <div class="container">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card"><div class="icon">📱</div><h3>Campañas en Meta Ads</h3><p>Publicidad en Facebook e Instagram para generar ventas y reconocimiento.</p></div>
+      <div class="card"><div class="icon">🔍</div><h3>Campañas en Google Ads</h3><p>Anuncios en búsqueda, display y shopping para captar clientes con intención.</p></div>
+      <div class="card"><div class="icon">🤖</div><h3>Aplicación de IA</h3><p>Optimización automática de audiencias y creativos con modelos de IA.</p></div>
+      <div class="card"><div class="icon">💻</div><h3>Optimización de Landing Pages</h3><p>Mejoras de UX, copy y velocidad para aumentar conversiones.</p></div>
+      <div class="card"><div class="icon">🚀</div><h3>SEO & Posicionamiento</h3><p>Estrategias de contenido y técnica para mejorar tu visibilidad orgánica.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonios" class="section section-light">
+  <div class="container">
+    <h2>Reseñas de Clientes</h2>
+    <div class="carousel" id="carousel">
+      <button class="ctrl prev" aria-label="Anterior">‹</button>
+      <div class="viewport">
+        <ul class="track" id="track">
+          <li class="slide">
+            <img src="assets/avatar_mariana.png" alt="Mariana López"/>
+            <h3>Mariana López</h3>
+            <p class="role">Centro de Estética</p>
+            <p class="quote">Triplicamos la cantidad de clientas en un mes con campañas en Meta Ads.</p>
+            <div class="stars">★★★★★</div>
+          </li>
+          <li class="slide">
+            <img src="assets/avatar_andres.png" alt="Dr. Andrés Gutiérrez"/>
+            <h3>Dr. Andrés Gutiérrez</h3>
+            <p class="role">Clínica Privada</p>
+            <p class="quote">Pacientes constantes y resultados medibles gracias a su gestión publicitaria.</p>
+            <div class="stars">★★★★★</div>
+          </li>
+          <li class="slide">
+            <img src="assets/avatar_lucia.png" alt="Lucía Ramírez"/>
+            <h3>Lucía Ramírez</h3>
+            <p class="role">Ecommerce</p>
+            <p class="quote">Duplicamos las ventas en solo 15 días con anuncios bien segmentados.</p>
+            <div class="stars">★★★★★</div>
+          </li>
+          <li class="slide">
+            <img src="assets/avatar_carlos.png" alt="Carlos Benítez"/>
+            <h3>Carlos Benítez</h3>
+            <p class="role">Constructora</p>
+            <p class="quote">Cerramos obras grandes con clientes calificados.</p>
+            <div class="stars">★★★★★</div>
+          </li>
+          <li class="slide">
+            <img src="assets/avatar_sofia.png" alt="Sofía Paredes"/>
+            <h3>Sofía Paredes</h3>
+            <p class="role">Restaurante</p>
+            <p class="quote">Llenamos el local cada fin de semana con las campañas en Google Ads.</p>
+            <div class="stars">★★★★★</div>
+          </li>
+        </ul>
+      </div>
+      <button class="ctrl next" aria-label="Siguiente">›</button>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section section-accent-2">
+  <div class="container">
+    <h2>¿Listo para crecer? <span class="accent">Hablemos.</span></h2>
+    <form id="leadForm" class="form">
+      <div class="row">
+        <input id="name" type="text" placeholder="Nombre" required>
+        <input id="phone" type="tel" placeholder="Teléfono (WhatsApp)" required>
+      </div>
+      <input id="business" type="text" placeholder="Negocio (ej: ecommerce, clínica, local)" required>
+      <label for="budget" class="label">Presupuesto aproximado</label>
+      <div class="options">
+        <label class="option"><input type="radio" name="budget" value="100 - 300 USD" required> <span>💵 100 - 300 USD</span></label>
+        <label class="option"><input type="radio" name="budget" value="500 - 800 USD"> <span>💰 500 - 800 USD</span></label>
+        <label class="option"><input type="radio" name="budget" value="1000 - 2000 USD"> <span>💎 1000 - 2000 USD</span></label>
+        <label class="option highlight"><input type="radio" name="budget" value="Más de 3000 USD"> <span>🚀 Más de 3000 USD</span></label>
+      </div>
+
+      <label for="adsType" class="label">Tipo de publicidad</label>
+      <div class="options">
+        <label class="option"><input type="radio" name="adsType" value="Meta Ads" required> <span>Meta Ads</span></label>
+        <label class="option"><input type="radio" name="adsType" value="Google Ads"> <span>Google Ads</span></label>
+      </div>
+
+      <button type="submit" class="btn btn-primary full">Enviar mensaje</button>
+      <p class="muted note">Al enviar, abriremos WhatsApp con tu mensaje preformateado. No almacenamos los datos en este formulario.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2025 FZ.ADS — Publicidad Digital Profesional</p>
+    <p><a href="https://wa.me/543794332820" target="_blank">📞 +54 3794 332820</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
